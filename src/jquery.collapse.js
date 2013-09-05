@@ -136,6 +136,8 @@
       }
     }
   };
+  
+  jQueryCollapse = Collapse;
 
   // Expose in jQuery API
   $.fn.extend({
@@ -159,6 +161,5 @@
 
   // Expose constructor to
   // global namespace
-  jQueryCollapse = Collapse;
 
 })(window.jQuery);
